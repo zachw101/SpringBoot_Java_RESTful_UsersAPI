@@ -63,12 +63,6 @@ class UserApiv2ApplicationTests {
 	}
 	
 	@Test
-	void guestLoginMethodReturnsEmptyListForNonEntry() {
-	    assertThat(gc.guestLogin("This is not a real email, so this test should return null"))
-	        .isNull();
-	}
-	
-	@Test
 	void employeeLoginMethodReturnsEmptyListForNonEntry() {
 	    assertThat(ec.employeeLogin("This is not a real email, so this test should return null", 
 	    							"this is not a real auth string... so this should return null"))
