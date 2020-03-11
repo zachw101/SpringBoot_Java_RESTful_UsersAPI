@@ -64,6 +64,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>user-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.asciidoctor</groupId>
