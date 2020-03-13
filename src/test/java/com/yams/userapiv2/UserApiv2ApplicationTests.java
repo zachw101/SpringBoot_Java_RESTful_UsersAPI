@@ -6,6 +6,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * @author zaxmaxpro
+ *
+ */
 @SpringBootTest
 class UserApiv2ApplicationTests {
 
@@ -70,6 +74,10 @@ class UserApiv2ApplicationTests {
 	}
 	
 	
+	/**
+	 *Adds a customer to the database, asserts the size against the original size to ensure it is greater,
+	 *then removes that customer and asserts the size is back to original size again.
+	 */
 	@Test
 	void addCustomerThenRemoveCustomerDoesntAffectGuestListSize() {
 	    Customer customer = new Customer("JunitTestUsername","junitTest@gmail.com");
