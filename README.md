@@ -1,1 +1,1 @@
-Full Documentation can be found in the Projects Wiki pages [here](https://gitlab.com/200127/stevenhernandez/yams/online-restaurant-app/-/wikis/Menu-API)
+Full Documentation can be found in the Projects Wiki pages [here](https://gitlab.com/200127/stevenhernandez/yams/online-restaurant-app/-/wikis/User-API)
