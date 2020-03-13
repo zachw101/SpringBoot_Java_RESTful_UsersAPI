@@ -86,7 +86,7 @@ class UserApiv2ApplicationTests {
 	    assertThat(cc.allItems())
 	        .size().isGreaterThan(originalSize);
 	    
-	    cc.deleteItem(customer.getId());
+	    cc.deleteItem(customer.getEmail());
 	    
 	    assertThat(cc.allItems())
 	        .isNotNull()
